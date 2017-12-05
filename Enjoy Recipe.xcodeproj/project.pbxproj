@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		CE95B28C1FD58F7D00E4EB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95B28B1FD58F7D00E4EB46 /* AppDelegate.swift */; };
-		CE95B28E1FD58F7D00E4EB46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95B28D1FD58F7D00E4EB46 /* ViewController.swift */; };
+		CE95B28E1FD58F7D00E4EB46 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95B28D1FD58F7D00E4EB46 /* MainVC.swift */; };
 		CE95B2911FD58F7D00E4EB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE95B28F1FD58F7D00E4EB46 /* Main.storyboard */; };
 		CE95B2941FD58F7D00E4EB46 /* Enjoy_Recipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE95B2921FD58F7D00E4EB46 /* Enjoy_Recipe.xcdatamodeld */; };
 		CE95B2961FD58F7D00E4EB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE95B2951FD58F7D00E4EB46 /* Assets.xcassets */; };
 		CE95B2991FD58F7D00E4EB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE95B2971FD58F7D00E4EB46 /* LaunchScreen.storyboard */; };
+		CE95B2A11FD596EC00E4EB46 /* amrar-ambal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE95B2A01FD596EC00E4EB46 /* amrar-ambal.jpg */; };
+		CE95B2A71FD5986600E4EB46 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95B2A61FD5986600E4EB46 /* MaterialView.swift */; };
+		CE95B2A91FD59A1F00E4EB46 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95B2A81FD59A1F00E4EB46 /* ItemCell.swift */; };
+		CE95B2AD1FD6791D00E4EB46 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95B2AC1FD6791D00E4EB46 /* ItemDetailsVC.swift */; };
+		CE95B2AF1FD685B300E4EB46 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95B2AE1FD685B300E4EB46 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE95B2881FD58F7D00E4EB46 /* Enjoy Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enjoy Recipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE95B28B1FD58F7D00E4EB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE95B28D1FD58F7D00E4EB46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE95B28D1FD58F7D00E4EB46 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		CE95B2901FD58F7D00E4EB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE95B2931FD58F7D00E4EB46 /* Enjoy_Recipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Enjoy_Recipe.xcdatamodel; sourceTree = "<group>"; };
 		CE95B2951FD58F7D00E4EB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE95B2981FD58F7D00E4EB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE95B29A1FD58F7D00E4EB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE95B2A01FD596EC00E4EB46 /* amrar-ambal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "amrar-ambal.jpg"; sourceTree = "<group>"; };
+		CE95B2A61FD5986600E4EB46 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		CE95B2A81FD59A1F00E4EB46 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		CE95B2AC1FD6791D00E4EB46 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		CE95B2AE1FD685B300E4EB46 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				CE95B28A1FD58F7D00E4EB46 /* Enjoy Recipe */,
+				CE95B2A21FD5971600E4EB46 /* Supporting-Fiels */,
 				CE95B2891FD58F7D00E4EB46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +67,52 @@
 		CE95B28A1FD58F7D00E4EB46 /* Enjoy Recipe */ = {
 			isa = PBXGroup;
 			children = (
-				CE95B28B1FD58F7D00E4EB46 /* AppDelegate.swift */,
-				CE95B28D1FD58F7D00E4EB46 /* ViewController.swift */,
+				CE95B2A51FD5974900E4EB46 /* Controller */,
+				CE95B2A41FD5974200E4EB46 /* Model */,
+				CE95B2A31FD5973900E4EB46 /* View */,
 				CE95B28F1FD58F7D00E4EB46 /* Main.storyboard */,
-				CE95B2951FD58F7D00E4EB46 /* Assets.xcassets */,
-				CE95B2971FD58F7D00E4EB46 /* LaunchScreen.storyboard */,
-				CE95B29A1FD58F7D00E4EB46 /* Info.plist */,
 				CE95B2921FD58F7D00E4EB46 /* Enjoy_Recipe.xcdatamodeld */,
 			);
 			path = "Enjoy Recipe";
+			sourceTree = "<group>";
+		};
+		CE95B2A21FD5971600E4EB46 /* Supporting-Fiels */ = {
+			isa = PBXGroup;
+			children = (
+				CE95B28B1FD58F7D00E4EB46 /* AppDelegate.swift */,
+				CE95B2951FD58F7D00E4EB46 /* Assets.xcassets */,
+				CE95B2A01FD596EC00E4EB46 /* amrar-ambal.jpg */,
+				CE95B2971FD58F7D00E4EB46 /* LaunchScreen.storyboard */,
+				CE95B29A1FD58F7D00E4EB46 /* Info.plist */,
+			);
+			name = "Supporting-Fiels";
+			path = "Enjoy Recipe";
+			sourceTree = "<group>";
+		};
+		CE95B2A31FD5973900E4EB46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE95B2A61FD5986600E4EB46 /* MaterialView.swift */,
+				CE95B2AE1FD685B300E4EB46 /* CustomTextField.swift */,
+				CE95B2A81FD59A1F00E4EB46 /* ItemCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CE95B2A41FD5974200E4EB46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE95B2A51FD5974900E4EB46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE95B28D1FD58F7D00E4EB46 /* MainVC.swift */,
+				CE95B2AC1FD6791D00E4EB46 /* ItemDetailsVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +177,7 @@
 				CE95B2991FD58F7D00E4EB46 /* LaunchScreen.storyboard in Resources */,
 				CE95B2961FD58F7D00E4EB46 /* Assets.xcassets in Resources */,
 				CE95B2911FD58F7D00E4EB46 /* Main.storyboard in Resources */,
+				CE95B2A11FD596EC00E4EB46 /* amrar-ambal.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE95B2AF1FD685B300E4EB46 /* CustomTextField.swift in Sources */,
+				CE95B2AD1FD6791D00E4EB46 /* ItemDetailsVC.swift in Sources */,
 				CE95B2941FD58F7D00E4EB46 /* Enjoy_Recipe.xcdatamodeld in Sources */,
-				CE95B28E1FD58F7D00E4EB46 /* ViewController.swift in Sources */,
+				CE95B28E1FD58F7D00E4EB46 /* MainVC.swift in Sources */,
 				CE95B28C1FD58F7D00E4EB46 /* AppDelegate.swift in Sources */,
+				CE95B2A71FD5986600E4EB46 /* MaterialView.swift in Sources */,
+				CE95B2A91FD59A1F00E4EB46 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +358,7 @@
 				CE95B29F1FD58F7D00E4EB46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
